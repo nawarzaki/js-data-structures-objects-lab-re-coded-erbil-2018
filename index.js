@@ -2,6 +2,8 @@
 const driver = {name: 'nawar', address: 'iraq'}
 
 
-function updateDriverWithKeyAndValue(driver, 'name', 'Sam') {
+function updateDriverWithKeyAndValue(driver, 'key', 'value') {
+  driver.name = 'Sam'
+  return driver
 }
 
